@@ -1,8 +1,3 @@
-import logo from "./logo.svg";
-import "./App.css";
-import axios from "axios";
-import { useState } from "react";
-import React, { useEffect } from "react";
 import Nav from "./Nav";
 function App() {
   // const [About, setAbout] = useState([]);
@@ -34,11 +29,11 @@ function App() {
             <h1 className="mb-2 text-white">
               Channy <span className="text-primary">Samnang</span>
             </h1>
-            <div className="subheading mb-2">Backend Developer</div>
+            <div className="subheading mb-2">Web Backend Developer</div>
             {/* <p className="mb-4" style="max-width: 500px;" >Des</p> */}
             <ul className="list-inline list-social-icons mb-0">
               <li className="list-inline-item">
-                <a href="#" target="_blank">
+                <a href="#instagram" target="_blank" rel="noopener noreferrer">
                   <span className="fa-stack fa-lg">
                     <i className="fa fa-circle fa-stack-2x"></i>
                     <i className="fa fa-instagram fa-stack-1x fa-inverse"></i>
@@ -46,7 +41,7 @@ function App() {
                 </a>
               </li>
               <li className="list-inline-item">
-                <a href="#" target="_blank">
+                <a href="#linkedin" target="_blank" rel="noopener noreferrer">
                   <span className="fa-stack fa-lg">
                     <i className="fa fa-circle fa-stack-2x"></i>
                     <i className="fa fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -54,7 +49,11 @@ function App() {
                 </a>
               </li>
               <li className="list-inline-item">
-                <a href="https://t.me/ChannySamnang" target="_blank">
+                <a
+                  href="https://t.me/ChannySamnang"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <span className="fa-stack fa-lg">
                     <i className="fa fa-circle fa-stack-2x"></i>
                     <i className="fa fa-telegram fa-stack-1x fa-inverse"></i>
@@ -62,7 +61,11 @@ function App() {
                 </a>
               </li>
               <li className="list-inline-item">
-                <a href="https://gitlab.com/samnang2k" target="_blank">
+                <a
+                  href="https://gitlab.com/samnang2k"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <span className="fa-stack fa-lg">
                     <i className="fa fa-circle fa-stack-2x"></i>
                     <i className="fa fa-gitlab fa-stack-1x fa-inverse"></i>
